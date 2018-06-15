@@ -65,9 +65,9 @@ class App extends Component {
         {
           this.state.cloths.map(cloth => (
             <ClothCard
-              key={cloths.cloth}
-              cloth={cloths.cloth}
-              image={cloths.image}
+              key={cloth.cloth}
+              cloth={cloth.cloth}
+              image={cloth.image}
               selectCloth={this.selectCloth}
               curScore={this.state.curScore}
             />
